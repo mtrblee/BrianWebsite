@@ -1,0 +1,12 @@
+# Ignore generated files in bin
+src/bin
+
+# Ignore obj
+src/obj
+
+# Ignore Properties
+src/Properties
+
+#ignore .vs
+.vs
+
