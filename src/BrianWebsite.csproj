@@ -13,5 +13,9 @@
   <ItemGroup>
     <Folder Include="Views\Info\" />
     <Folder Include="Views\Contact\" />
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\" />
   </ItemGroup>
 </Project>
