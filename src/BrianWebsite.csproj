@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Aboutme\" />
+    <None Remove="Views\Contact\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Info\" />
+    <Folder Include="Views\Contact\" />
+  </ItemGroup>
 </Project>
