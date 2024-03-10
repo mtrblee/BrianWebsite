@@ -1,0 +1,7 @@
+/Users/brianlee/Projects/BrianWebsite/BrianWebsite.WebApp/bin/Release/net8.0/publish/BrianWebsite.WebApp
+/Users/brianlee/Projects/BrianWebsite/BrianWebsite.WebApp/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/brianlee/Projects/BrianWebsite/BrianWebsite.WebApp/bin/Release/net8.0/publish/appsettings.json
+/Users/brianlee/Projects/BrianWebsite/BrianWebsite.WebApp/bin/Release/net8.0/publish/BrianWebsite.WebApp.dll
+/Users/brianlee/Projects/BrianWebsite/BrianWebsite.WebApp/bin/Release/net8.0/publish/BrianWebsite.WebApp.deps.json
+/Users/brianlee/Projects/BrianWebsite/BrianWebsite.WebApp/bin/Release/net8.0/publish/BrianWebsite.WebApp.runtimeconfig.json
+/Users/brianlee/Projects/BrianWebsite/BrianWebsite.WebApp/bin/Release/net8.0/publish/BrianWebsite.WebApp.pdb

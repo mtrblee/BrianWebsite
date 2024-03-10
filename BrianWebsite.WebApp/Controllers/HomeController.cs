@@ -1,6 +1,6 @@
-﻿namespace BrianWebsite.Controllers
+﻿namespace BrianWebsite.WebApp.Controllers
 {
-    using BrianWebsite.Models;
+    using BrianWebsite.WebApp.Models;
     using Microsoft.AspNetCore.Mvc;
     using System.Diagnostics;
 
