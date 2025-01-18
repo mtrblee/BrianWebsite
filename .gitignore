@@ -16,3 +16,12 @@ src/Properties
 **/.DS_Store
 **/._.DS_Store
 
+#node_modules
+node_modules
+BrianDashboard/bin
+BrianDashboard/node_modules
+BrianDashboard/obj
+BrianDashboard/appsettings.Development.json
+BrianDashboard/BrianDashboard.csproj.user
+BrianDashboard/package-lock.json
+
