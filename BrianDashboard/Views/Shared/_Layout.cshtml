@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - SPO Drama</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--
+    Define the window.rootFolder global variable to enable web app to be placed in
+    subdirectories (otherwise there is no easy way without flaky URL manipulation
+    to determine the directory structure when deployed and API calls would fail).
+    -->
+    <script type="text/javascript">
+        window.rootFolder = "@Url.Content("~/")";
+    </script>
+</head>
+<body>
+<div class="body-content">
+    @RenderBody()
+    @RenderSection("SPAViews", required: false)
+</div>
+
+<script src="~/dist/reactBundle.js" defer></script>
+@RenderSection("AppScripts", required: false)
+</body>
+</html>
