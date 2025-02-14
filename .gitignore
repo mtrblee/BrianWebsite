@@ -24,4 +24,5 @@ BrianDashboard/obj
 BrianDashboard/appsettings.Development.json
 BrianDashboard/BrianDashboard.csproj.user
 BrianDashboard/package-lock.json
+BrianDashboard/wwwroot/dist
 

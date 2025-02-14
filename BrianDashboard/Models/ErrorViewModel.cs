@@ -1,3 +1,4 @@
+#nullable enable
 namespace BrianWebsite.WebApp.Models;
 
 public class ErrorViewModel

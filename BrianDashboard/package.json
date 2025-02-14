@@ -1,13 +1,13 @@
 {
-  "name": "@mtrblee/brian-website",
+  "name": "mtrblee-brian-website",
   "version": "1.0.0",
+  "author": "Brian Lee",
   "description": "The npm package for Brian WebSite.",
   "scripts": {
-    "build": "webpack --config webpack.config.base.js",
-    "dev-server": "webpack serve --config ./webpack.config.devserver.js",
-    "prepare": "cd ../ && husky BrianDashboard/.husky"
+    "build": "webpack --config webpack.config.js"
   },
   "license": "UNLICENSED",
+  "keywords":  ["server", "typescript", "sports"],
   "dependencies": {
     "axios": "^1.7.2",
     "export-to-csv": "^0.2.2",
@@ -33,7 +33,6 @@
     "eslint-webpack-plugin": "^4.2.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.6.0",
-    "husky": "^9.1.1",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "lint-staged": "^15.2.7",
