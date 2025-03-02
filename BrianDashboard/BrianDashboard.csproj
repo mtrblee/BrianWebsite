@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-		<Folder Include="AppScripts\src\components\" />
+		<Folder Include="AppScripts\src\components\personal\" />
 		<Folder Include="AppScripts\src\sharedComponents\" />
 		<Folder Include="wwwroot\images\" />
   </ItemGroup>

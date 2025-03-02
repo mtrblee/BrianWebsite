@@ -34,7 +34,30 @@ module.exports =
                         loader: "ts-loader"
                     }
                 ]
+            },
+            {
+                test: /\.s[ac]ss$/i,
+                exclude: /node_modules/,
+                use: [
+                    // Creates `style` nodes from JS strings
+                    "style-loader",
+                    // Translates CSS into CommonJS
+                    "css-loader",
+                    // Compiles Sass to CSS
+                    "sass-loader",
+                    "postcss-loader"
+                ],
+            },
+            {
+                test: /\.css$/i,
+                exclude: /node_modules/,
+                use: ["style-loader", "css-loader", "postcss-loader"]
+            },
+            {
+                test: /\.(png|jp(e*)g|svg|gif)$/,
+                use: ["file-loader"]
             }
+
         ]
     },
     resolve: {
