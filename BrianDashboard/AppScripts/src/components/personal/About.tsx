@@ -18,7 +18,7 @@ function about() {
 					<p>
 						I'm a <span className="font-bold">Sports Enthusiast</span> from
 						Atlanta Georgia. My current passion is <span className="font-bold">pickleball</span>. The purpose of this webpage is to organize and create high quality tutorials for pickleball.
-						I am an{" "}<span className="font-bold">engineer by trade</span> looking to reverse engineer sports.'
+						I am an{" "}<span className="font-bold">engineer by trade</span> looking to reverse engineer sports.
 					</p>
 					<br />
 					<p>
