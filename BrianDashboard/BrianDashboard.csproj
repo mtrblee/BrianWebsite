@@ -11,6 +11,7 @@
   <ItemGroup>
 		<Folder Include="AppScripts\src\components\personal\" />
 		<Folder Include="AppScripts\src\sharedComponents\" />
+		<Folder Include="wwwroot\assets\" />
 		<Folder Include="wwwroot\images\" />
   </ItemGroup>
 
